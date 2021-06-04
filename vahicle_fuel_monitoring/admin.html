@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart fuel Monitoring System Using RFID </title> 
+</head>
+
+<h1 style="font-size:30px; margin-left:200px; padding:20px;" >SMART FUEL MONITORING SYSTEM USING RFID</h1>
+
+<body style="background-color:powderblue;">
+
+
+<img style="margin-left:500px;" src="pump.png"  width="150" height="150">
+
+
+<form style="margin-left:300px; padding:20px;" method="post" action="rfid_insert.php">
+  <h2 style="font-size: 20px; ">RFID NUMBER FOR USER <i>(ADMIN USE ONLY)</i></h2>
+  User Phone Number:<br>
+  <input type="Number" name="Number" value=""><br>
+  RFID Number:<br>
+  <input type="text" name="Rfid" value=""><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+
+
+
+<form style="margin-left:300px; padding:20px;" method = "post" action = "set_balance.php">
+  <h2 style="font-size: 20px; ">BALANCE RECHARGE <i>(ADMIN USE ONLY)</i></h2>
+  User Phone Number:<br>
+  <input type="Number" name="Number" value=" "><br>
+  Recharge Amount(Taka):<br>
+  <input type="Number" name="balance" value=""><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+
+
+
+</body>
+</html>
